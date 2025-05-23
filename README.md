@@ -62,7 +62,7 @@ model = Sequential([
     Dropout(0.5),
     Dense(28, activation='softmax')
 ])
-
+```
 ## Preprocessing
 
 - Normalized image pixel values to range `[0, 1]`
